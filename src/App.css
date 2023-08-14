@@ -1,0 +1,25 @@
+main {
+  text-align: center;
+}
+
+button {
+  margin-top: 1em;
+  margin-bottom: 4em;
+  padding: 1em 1.5em;
+  background-color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+button:hover {
+  background-color: #007bff;
+  padding: 1em 2em;
+  color: #fff;
+  border: none;
+}
