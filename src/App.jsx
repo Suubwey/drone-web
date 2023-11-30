@@ -5,10 +5,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 function App() {
   const [isUnityLoaded, setIsUnityLoaded] = useState(false);
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/unity/auav-build-uncompressed.loader.js",
-    dataUrl: "/unity/auav-build-uncompressed.data",
-    frameworkUrl: "/unity/auav-build-uncompressed.framework.js",
-    codeUrl: "/unity/auav-build-uncompressed.wasm",
+    loaderUrl: "/unity/Build.loader.js",
+    dataUrl: "/unity/Build.data.unityweb",
+    frameworkUrl: "/unity/Build.framework.js.unityweb",
+    codeUrl: "/unity/Build.wasm.unityweb",
   });
 
   // console.log(unityProvider)
